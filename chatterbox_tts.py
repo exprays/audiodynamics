@@ -173,7 +173,7 @@ class Chatterbox:
 @app.local_entrypoint()
 def test(
     prompt: str = "Chatterbox running on Modal [chuckle].",
-    voice_key: str = "voices/system/default.wav",
+    voice_key: str = "voices/system/cmo1pboal0005vto8l24owrej.wav",
     output_path: str = "/tmp/chatterbox-tts/output.wav",
     temperature: float = 0.8,
     top_p: float = 0.95,
