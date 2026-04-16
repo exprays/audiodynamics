@@ -257,7 +257,7 @@ async function seedSystemVoice(name: string) {
           id: voice.id,
         },
       })
-      .catch(() => {});
+      .catch(() => { });
 
     throw error;
   }
